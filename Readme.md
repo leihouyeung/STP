@@ -2,11 +2,11 @@
 
 ## Installation
 
-'''
+```
 conda create -n STP python=3.7
 conda activate STP
 pip install -r requirements.txt
-'''
+```
 
 ## Usage
 
