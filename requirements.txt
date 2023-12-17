@@ -1,0 +1,10 @@
+opencv-python==4.6.0.66
+scipy==1.7.3
+scikit-learn==1.0.2
+pillow==8.2.0
+scikit-image==0.19.2
+stardist==0.8.3
+cellpose==2.1.1
+torch==1.11.0
+scanpy==1.9.3
+sparse==0.13.0
