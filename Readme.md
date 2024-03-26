@@ -32,13 +32,8 @@ The output files include:
 
 
 ## Example:
-```
-adata_path = './example/example1.h5ad'
-img_path = './example/example.tiff'
-save_path = './example_result/'
-adata = sc.read_h5ad(adata_path)
-img = cv2.imread(img_path)
-os.makedirs(save_path,exist_ok=True)
 
-STP(adata,img,save_path) 
-```
+We supplied a demo for single-cell partition for the drosophila embryo. 
+Finally, it would create a folder called `example_result` to save the output results introduced above.
+
+
