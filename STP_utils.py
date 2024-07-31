@@ -237,7 +237,7 @@ def ST_convolution_from_nuclei(connected_components,
                                neighbor_num = 3, # number of neighbor for KNN 
                                alpha = 1, # weight for distance energy
                                beta = 0.1, # weight for transcriptional similarity energy
-                               gamma = 5,
+                               gamma = 3,
                                save_path = './'):
 
     epoch = 1       # epoch for inference
