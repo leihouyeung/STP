@@ -400,7 +400,7 @@ def STP(adata,                 # h5ad file spatial transcriptomics
         T_min = 10,            # the minimum temperature for ending the algorithm
         reduction_rate = 0.5, # rate of reduction for T, 0 < k < 1
         neighbor_num = 3,      # number of neighbor for KNN 
-        alpha = 1,             # weight for distance energy
+        alpha = 0.5,             # weight for distance energy
         beta = 0.1,            # weight for transcriptional similarity energy
         thres = 0.8            # The threshold of nulcei segmentation
         
