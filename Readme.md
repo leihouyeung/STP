@@ -20,8 +20,9 @@ The partition of single cell through spatial transcriptomics data is mainly done
 - `T_min`: Minimum temperature for ending the algorithm
 - `reduction_rate`: Rate of reduction for T ( 0 < k < 1)
 - `neighbor_num`: Number of neighbors for KNN 
-- `alpha`: Weight for distance energy (0 < alpha < 1)
-- `beta`: Weight for transcriptional similarity energy (0 < beta < 1)
+- `alpha`: Weight for distance energy 
+- `beta`: Weight for transcriptional similarity energy
+- `gamma` :Weight for size energy
 - `thres`: The threshold of nuclei segmentation
 
 The output files include:
